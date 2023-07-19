@@ -34,3 +34,11 @@
   font-weight: 400;
   line-height: 48px;
 }
+
+.heading {
+  font-family: Matter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
