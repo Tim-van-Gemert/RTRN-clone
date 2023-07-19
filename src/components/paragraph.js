@@ -1,12 +1,17 @@
-export default  function Paragraph () {
+export default  function Paragraph (props) {
+
+
+
+    console.log(props)
     return (
-        <div className="w-full grid gap-6 grid-cols-4">
-            <div className="col-span-3 border-r-[1px] border-black"></div>
-            <div className="primary-text col-span-1 w-full">
-                Branding bureau in Amsterdam. <br/>
-                Sorry nee, in Rotterdam. <br/>
-                Nee wacht, in Groningen. <br/>
-                Uhm ja, Groningen.
+        <div className={`w-full ${props.inHero && props.contentTopLeft == "" ? 'h-[704px] ' : ''} grid  grid-cols-4`}>
+            <div className={` ${props.inHero ? 'justify-end' : ''} col-span-3 pr-[80px] primary-text flex flex-col gap-6 border-r-[1px] border-black`}>
+                {props.contentTopLeft}
+                {props.contentBottomLeft}
+            </div>
+            <div className="secondary-text flex flex-col gap-6 col-span-1 pl-[32px] w-full">
+                {props.contentTopRight}
+                {props.contentBottomRight}
             </div>
         </div>
 
