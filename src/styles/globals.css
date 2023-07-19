@@ -123,6 +123,16 @@ a {
   line-height: 36px; /* 150% */
 }
 
+.mh4 {
+  color: var(--black, #000);
+  /* Mobile/H4 */
+  font-family: Matter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+}
+
 
 
 

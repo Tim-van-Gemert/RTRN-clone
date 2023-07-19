@@ -1,9 +1,9 @@
 import Buttons from "../templates/button"
 export default function SingleStep (props) {
     return (
-        <div className="w-full h-full flex justify-between group py-[16px] pl-[32px] border-l-[1px] animateline border-black flex-col">
+        <div className="w-full h-full flex justify-between group py-[16px] xl:pl-[32px] border-b-[1px] xl:border-b-[0px] xl:border-l-[1px] animateline border-black flex-col">
             <div className=" flex flex-col gap-[32px]">
-                <h4>{props.title}</h4>
+                <h4 className="mh4 xl:">{props.title}</h4>
                 <Buttons 
                 arrow={true}
                 hovercColor={'yellow'} 

@@ -7,7 +7,7 @@ import Steps from "@/components/StepSection/steps"
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-[80px]">
-      <Hero />
+      {/* <Hero />
       <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
@@ -42,9 +42,9 @@ export default function Home() {
             </div>
           ]]
         }
-      />
+      /> */}
       <Steps />
-      <ImageBlock
+      {/* <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           ]]
         }
-      />
+      /> */}
     </div>
   )
 }
