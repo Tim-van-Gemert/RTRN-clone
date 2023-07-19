@@ -114,3 +114,12 @@ a {
   line-height: 48px; /* 150% */
 }
 
+.mp2 {
+  color: var(--black, #000);
+  /* Mobile/P2 */
+  font-family: Matter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}

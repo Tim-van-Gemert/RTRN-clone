@@ -12,11 +12,11 @@ export default function Home() {
         image1={'/image1.png'}
         image3={'/image3.png'}
       /> */}
-      <Text
+      {/* <Text
         text={['Als je je klant niet weet te bereiken, zullen', <br></br>, 'ze nooit weten hoe fantastisch je bent.']}
         size={'p'}
-      />
-      {/* <Paragraph
+      /> */}
+      <Paragraph
         inHero={false}
         size={'p-s'}
         contentTopLeft={'Elke touchpoint is een gelegenheid om de relatie tussen jou en je klant te versterken. Wij ontwikkelen eigenlijk alles waarmee jij je klanten verrast, verleidt, verblijdt en verovert.'}
@@ -43,15 +43,15 @@ export default function Home() {
           ]]
         }
       />
-      <Steps />
-      <ImageBlock
+      {/* <Steps /> */}
+      {/* <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
       <Text
         text={'Klaar voor verandering?'}
         size={'h2'}
-      />
+      /> */}
       <Paragraph
         inHero={false}
         size={'p'}
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           ]]
         }
-      /> */}
+      />
     </div>
   )
 }
