@@ -7,12 +7,12 @@ import Steps from "@/components/StepSection/steps"
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-[80px]">
-      <Hero />
+      {/* <Hero /> */}
       <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
-      <Text
+      {/* <Text
         text={['Als je je klant niet weet te bereiken, zullen', <br></br>, 'ze nooit weten hoe fantastisch je bent.']}
         size={'p'}
       />
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           ]]
         }
-      />
+      /> */}
     </div>
   )
 }

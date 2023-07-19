@@ -5,7 +5,7 @@ export default function Hero () {
         <div className="bg-main w-full h-[896px] absolute z-10"></div>
             <div className="h-full relative z-20 w-full flex flex-col items-center ">
                 <div className="w-site h-hero  gap-12 flex flex-col">
-                    <div className="w-full h-full flex items-end hero-text ">
+                    <div className="w-full h-full flex items-end  hero-text  ">
                     Wij zijn RTRN <br/> [ri-turn]
                     </div>
                 </div>
