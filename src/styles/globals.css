@@ -104,5 +104,13 @@ a {
   line-height: 24px;
 }
 
-
+.mp1 {
+  color: var(--black, #000);
+  /* Mobile/P1 */
+  font-family: Matter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 150% */
+}
 

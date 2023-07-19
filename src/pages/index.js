@@ -8,15 +8,15 @@ export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-[80px]">
       {/* <Hero /> */}
-      <ImageBlock
+      {/* <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
-      />
-      {/* <Text
+      /> */}
+      <Text
         text={['Als je je klant niet weet te bereiken, zullen', <br></br>, 'ze nooit weten hoe fantastisch je bent.']}
         size={'p'}
       />
-      <Paragraph
+      {/* <Paragraph
         inHero={false}
         size={'p-s'}
         contentTopLeft={'Elke touchpoint is een gelegenheid om de relatie tussen jou en je klant te versterken. Wij ontwikkelen eigenlijk alles waarmee jij je klanten verrast, verleidt, verblijdt en verovert.'}
