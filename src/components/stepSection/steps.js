@@ -1,5 +1,5 @@
 import SingleStep from "./singleStep"
-import Buttons from "../button"
+import Buttons from "../templates/button"
 export default function Steps () {
     const ActiveSteps = [
         <SingleStep 
@@ -19,14 +19,18 @@ export default function Steps () {
     return (
        <div className="w-full flex flex-col gap-[120px] my-[84px] py-[96px] items-center justify-top h-[744px] bg-sec">
         <div className="w-site h-[416px]  grid grid-cols-3">
-            {ActiveSteps.map((s)=> {
+            {ActiveSteps.map((step)=> {
                 return (
-                  s  
+                  step  
                 )
             })}
         </div>
         <div className="w-site">
-            <Buttons content={'Meer over onze services'}/>  
+            <Buttons 
+            arrow={true}
+            hovercColor={'yellow'} 
+            baseColor={'white'}
+            content={'Meer over onze services'}/>  
         </div>
        </div> 
     )

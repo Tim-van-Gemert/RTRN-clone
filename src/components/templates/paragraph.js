@@ -4,7 +4,7 @@ export default  function Paragraph (props) {
     return (
         <div className="w-full flex justify-center">
         <div className={`w-site ${props.inHero && props.contentTopLeft == "" ? 'h-[704px] ' : ''} grid  grid-cols-4`}>
-            <div className={` ${props.inHero ? 'justify-end' : ''} col-span-3 pr-[80px] primary-text flex flex-col gap-6 `}>
+            <div className={` ${props.inHero ? 'justify-end' : ''}  ${props.size == "p-s" ? 'primary-text' : 'paragraph'} col-span-3 pr-[80px]  flex flex-col gap-6 `}>
                 <div className={` ${props.inHero ? 'w-full' : 'w-[592px]'}`}>
                 {props.contentTopLeft}
                 {props.contentBottomLeft}
