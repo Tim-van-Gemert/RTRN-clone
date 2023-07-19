@@ -14,7 +14,7 @@ export default function Hero () {
                     inHero={true}
                     contentTopLeft={''}
                     contentBottomLeft={'Zie ons als een groep vakidioten, met verhalenvertellers, uitvinders en makers. Soms krijgt een bureau prijzen. Wij ook. Soms werkt een bureau voor grote merken en soms voor kleine jongens. Wij ook. En als creatief bureau zijn we soms über-kritisch en nemen we onszelf veel te serieus. Klopt, maar we zijn wel verdomd goed in ons werk.'}
-                    contentTopRight={'Branding bureau in Amsterdam. Sorry nee, in Rotterdam. Nee wacht, in Groningen. Uhm ja, Groningen.'}
+                    contentTopRight={['Branding bureau in Amsterdam.', <br/>, 'Sorry nee, in Rotterdam.', <br/>,  'Nee wacht, in Groningen.', <br/>, 'Uhm ja, Groningen.']}
                     />
                 </div>
                 
