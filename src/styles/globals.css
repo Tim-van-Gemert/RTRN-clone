@@ -116,10 +116,21 @@ a {
 
 .mp2 {
   color: var(--black, #000);
-  /* Mobile/P2 */
   font-family: Matter;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px; /* 150% */
+}
+
+
+
+
+@keyframes LineAnimation {
+  from {height: 0%;}
+  to {height: 100%;}
+}
+
+.animateline {
+  animation: 2s ease-in-out LineAnimation;
 }

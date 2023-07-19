@@ -7,15 +7,15 @@ import Steps from "@/components/StepSection/steps"
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-[80px]">
-      {/* <Hero /> */}
-      {/* <ImageBlock
+      <Hero />
+      <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
-      /> */}
-      {/* <Text
+      />
+      <Text
         text={['Als je je klant niet weet te bereiken, zullen', <br></br>, 'ze nooit weten hoe fantastisch je bent.']}
         size={'p'}
-      /> */}
+      />
       <Paragraph
         inHero={false}
         size={'p-s'}
@@ -43,15 +43,15 @@ export default function Home() {
           ]]
         }
       />
-      {/* <Steps /> */}
-      {/* <ImageBlock
+      <Steps />
+      <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
       <Text
         text={'Klaar voor verandering?'}
         size={'h2'}
-      /> */}
+      />
       <Paragraph
         inHero={false}
         size={'p'}
@@ -67,7 +67,7 @@ export default function Home() {
                 content={'+050 211 09 06'}
               />
             </div>
-          ],
+          ],  
           [
             <div className="flex flex-row items-center gap-[16px]">
               <Button

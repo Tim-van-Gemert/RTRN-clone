@@ -1,7 +1,7 @@
 export default function Text (props) {
     return (
     <div className="w-full px-[16px] md:px-[56px] xl:px-[0px] flex justify-center">
-        <div className={`w-site   ${props.size == "p" ? 'md:paragraph' : 'md:h2'} mp1`}>{props.text}</div>
+        <div className={`w-site   ${props.size == "p" ? 'md:paragraph mp1' : 'md:h2'} h2`}>{props.text}</div>
     </div>
     )
 }
