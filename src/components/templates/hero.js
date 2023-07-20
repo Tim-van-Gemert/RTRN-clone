@@ -12,7 +12,7 @@ export default function Hero () {
                     <Paragraph 
                     size={'p-s'}
                     contentTopLeft={''}
-                    borderleft={true}
+                    mobileBorderleft={true}
                     hasMobileBorder={true}
                     contentTopRight={['Branding bureau in Amsterdam.', <br/>, 'Sorry nee, in Rotterdam.', <br/>,  'Nee wacht, in Groningen.', <br/>, 'Uhm ja, Groningen.']}
                     />

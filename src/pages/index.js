@@ -20,6 +20,9 @@ export default function Home() {
         inHero={false}
         size={'p-s'}
         leftTextUp={true}
+        hasMobileBorder={true}
+        mobileBorderleft={false}
+        tabletBorderleft={true}
         contentTopLeft={'Elke touchpoint is een gelegenheid om de relatie tussen jou en je klant te versterken. Wij ontwikkelen eigenlijk alles waarmee jij je klanten verrast, verleidt, verblijdt en verovert.'}
         contentTopRight={[
           [
@@ -46,7 +49,9 @@ export default function Home() {
       />
       <Steps />
       <ImageBlock
+        masonary={true}
         image1={'/image1.png'}
+        image2={'/image4.png'}
         image3={'/image3.png'}
       />
       <Text
@@ -55,11 +60,12 @@ export default function Home() {
       />
       <Paragraph
         inHero={false}
-        borderleft={true}
+        mobileBorderleft={true}
         hasMobileBorder={true}
         leftTextUp={true}
         size={'p'}
         contentTopLeft={'Geef ons een belletje.'}
+        extraStyling={'border-l-[1px] border-black pl-[16px] md:border-l-0 md:pl-[0px]'}
         contentTopRight={[
           [
             <div className="flex flex-row items-center gap-[16px]">

@@ -17,7 +17,7 @@ export default function Steps () {
     ]
 
     return (
-       <div className="w-full flex flex-col gap-[32px] pb-[56px] xl:pb-[56px] xl:gap-[120px] my-[84px] xl:py-[96px] items-center justify-top xl:h-[744px] bg-sec">
+       <div className="w-full md:-mt-[80px]  lg:-mt-[0px] flex flex-col gap-[32px] pb-[56px] xl:pb-[56px] xl:gap-[120px] mb-[84px] xl:py-[96px] items-center justify-top xl:h-[744px] bg-sec">
         <div className="xl:w-site w-full px-[32px] xl:px-[0px] xl:h-[416px] grid grid-cols-1 xl:grid-cols-3">
             {ActiveSteps.map((step)=> {
                 return (
