@@ -6,9 +6,9 @@ import Button from "@/components/templates/button"
 import Steps from "@/components/stepSection/steps"
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col">
+    <div className="w-full h-full flex gap-[80px] flex-col">
       <Hero />
-      {/* <ImageBlock
+      <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
@@ -19,6 +19,7 @@ export default function Home() {
       <Paragraph
         inHero={false}
         size={'p-s'}
+        leftTextUp={true}
         contentTopLeft={'Elke touchpoint is een gelegenheid om de relatie tussen jou en je klant te versterken. Wij ontwikkelen eigenlijk alles waarmee jij je klanten verrast, verleidt, verblijdt en verovert.'}
         contentTopRight={[
           [
@@ -54,8 +55,11 @@ export default function Home() {
       />
       <Paragraph
         inHero={false}
+        borderleft={true}
+        hasMobileBorder={true}
+        leftTextUp={true}
         size={'p'}
-        contentTopLeft={'Geef ons een belletje'}
+        contentTopLeft={'Geef ons een belletje.'}
         contentTopRight={[
           [
             <div className="flex flex-row items-center gap-[16px]">
@@ -67,7 +71,7 @@ export default function Home() {
                 content={'+050 211 09 06'}
               />
             </div>
-          ],  
+          ],
           [
             <div className="flex flex-row items-center gap-[16px]">
               <Button
@@ -80,7 +84,7 @@ export default function Home() {
             </div>
           ]]
         }
-      /> */}
+      />
     </div>
   )
 }

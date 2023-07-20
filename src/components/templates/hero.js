@@ -2,9 +2,9 @@ import Paragraph from "./paragraph"
 export default function Hero () {
     return (
         <>
-            <div className="h-full bg-main  relative z-20 w-full mb-[80px] xl:mb-[0px] h-mhero xl:h-hero flex flex-col justify-end  items-center md:items-end lg:md:items-center ">
+            <div className="h-full bg-main  relative z-20 w-full mb-[80px] xl:mb-[0px] h-mhero lg:h-hero flex flex-col justify-end  items-center md:items-end xl:items-center ">
                 <div className="xl:w-site px-[16px] w-full xl:px-[0px] xl:gap-12 flex flex-col">
-                    <div className="w-full h-full flex items-end hero-text">
+                    <div className="w-full h-full flex items-end hero-text ">
                     Wij zijn RTRN <br/> [ri-turn]
                     </div>
                 </div>
@@ -18,7 +18,7 @@ export default function Hero () {
                     />
                 </div>
             </div>   
-            <div className="w-full flex h-[448px]  items-end justify-center">
+            <div className="w-full flex h-[448px] -mt-[80px] items-end justify-center">
                 <div className=" h-full">
                         <Paragraph 
                         size={'p-s'}
