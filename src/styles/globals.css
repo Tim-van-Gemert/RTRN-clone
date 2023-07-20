@@ -142,6 +142,26 @@ a {
   line-height: 64px;
 }
 
+.mp2 {
+  color: var(--black, #000);
+  /* Mobile/P2 */
+  font-family: Matter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+
+.th1 {
+  color: var(--black, #000);
+  font-family: Matter;
+  font-size: 120px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 120px !important; 
+}
+
+
 
 @keyframes LineAnimation {
   from {height: 0%;}
