@@ -7,19 +7,27 @@
   src: url(../../fonts/Matter-Regular.otf);
 }
 
-.heading {
+div, p, h1, h2, h3, h4, a {
+  color: var(--black, #000);
   font-family: Matter;
-  font-size: 56px ;
   font-style: normal ;
+}
+
+
+.heading {
+  font-size: 56px ;
   font-weight: 600 ;
   line-height: 64px ; 
 }
 
+.text {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px; 
+}
+
 .hero-text {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 64px;
-  font-style: normal;
+  line-height: 64px;
   font-weight: 600;
   font-size: 64px;
 }
@@ -28,20 +36,60 @@
 .paragraph {
   font-size: 18px;
   line-height: 32px;
-  font-style: normal;
   font-weight: 400;
-  font-family: Matter;
+}
+
+.paragraph-small {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .steps {
-  color: var(--black, #000);
-  font-family: Matter;
   font-size: 40px;
-  font-style: normal;
   font-weight: 600;
   line-height: 48px; 
 }
+.secondary-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px; 
+}
 
+.p-small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 96.9%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+
+
+@media only screen and (min-width: 400px){
+  .paragraph {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .paragraph-small {
+    font-size: 26px;
+    line-height: 48px;
+  }
+  .text {
+    font-size:  48px ;
+    line-height: 64px ; 
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .heading {
@@ -82,6 +130,11 @@
     line-height: 64px;
   }
 
+  .paragraph-small {
+    font-size: 26px;
+    line-height: 48px;
+  }
+
   .steps {
     font-size: 48px;
     line-height: 56px;
@@ -89,143 +142,8 @@
 }
 
 
-.mh1 {  
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 64px;
-}
-
-.secondary-text {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; 
-}
-
-.primary-text {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
-}
 
 
-
-h4 {
-  font-family: Matter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 56px;
-}
-
-.p-small {
-  color: #000;
-  font-family: Matter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-
-a {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 96.9%;
-}
-
-.h2 {
-  font-family: Matter;
-  font-size: 120px !important;
-  font-style: normal !important;
-  font-weight: 600 !important;
-  line-height: 120px !important; /* 100% */
-}
-
-.h6 {
-  font-family: Matter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 32px;
-}
-
-
-.p-small {
-  font-family: Matter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.mp1 {
-  color: var(--black, #000);
-  /* Mobile/P1 */
-  font-family: Matter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px; /* 150% */
-}
-
-.mp2 {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px; /* 150% */
-}
-
-.mh4 {
-  color: var(--black, #000);
-  /* Mobile/H4 */
-  font-family: Matter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 48px; /* 120% */
-}
-
-.mh1 {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 64px;
-}
-
-.mp2 {
-  color: var(--black, #000);
-  /* Mobile/P2 */
-  font-family: Matter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px; /* 150% */
-}
-
-.th1 {
-  color: var(--black, #000);
-  font-family: Matter;
-  font-size: 120px !important;
-  font-style: normal !important;
-  font-weight: 600 !important;
-  line-height: 120px !important; 
-}
 
 
 
@@ -237,5 +155,5 @@ a {
 }
 
 .animateline {
-  animation: 2s ease-in-out LineAnimation;
+  animation: 1s ease-in-out LineAnimation;
 }

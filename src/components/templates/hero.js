@@ -10,18 +10,21 @@ export default function Hero () {
                 </div>
                 <div className=" w-full md:w-fit h-[256px]">
                     <Paragraph 
+                    key={'p1'}
                     size={'p-s'}
                     contentTopLeft={''}
                     mobileBorderleft={true}
                     hasMobileBorder={true}
-                    contentTopRight={['Branding bureau in Amsterdam.', <br/>, 'Sorry nee, in Rotterdam.', <br/>,  'Nee wacht, in Groningen.', <br/>, 'Uhm ja, Groningen.']}
+                    contentTopRight={['Branding bureau in Amsterdam.', <br key={'br1'}/>, 'Sorry nee, in Rotterdam.', <br key={'br2'}/>,  'Nee wacht, in Groningen.', <br key={'br3'}/>, 'Uhm ja, Groningen.']}
                     />
                 </div>
             </div>   
             <div className="w-full flex h-[448px] -mt-[80px] items-end justify-center">
                 <div className=" h-full">
                         <Paragraph 
+                        key={'p2'}
                         size={'p-s'}
+                        delay={0.5}
                         contentTopLeft={''}
                         contentTopRight={''}
                         contentBottomLeft={'Zie ons als een groep vakidioten, met verhalenvertellers, uitvinders en makers. Soms krijgt een bureau prijzen. Wij ook. Soms werkt een bureau voor grote merken en soms voor kleine jongens. Wij ook. En als creatief bureau zijn we soms über-kritisch en nemen we onszelf veel te serieus. Klopt, maar we zijn wel verdomd goed in ons werk.'}
