@@ -29,12 +29,14 @@ export default function Home() {
         contentTopRight={<DualButtons content={['werk', 'contact']}/>}
       />
       <Steps />
-      <ImageBlock
-        masonary={true}
-        image1={'/image1.png'}
-        image2={'/image4.png'}
-        image3={'/image3.png'}
-      />
+      <div className="-mb-[80px]">
+        <ImageBlock
+          masonary={true}
+          image1={'/image1.png'}
+          image2={'/image4.png'}
+          image3={'/image3.png'}
+        />
+      </div>
       <Text
         text={'Klaar voor verandering?'}
         size={'h2'}
