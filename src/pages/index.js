@@ -3,12 +3,12 @@ import Paragraph from "@/components//templates/paragraph"
 import Text from "@/components/templates/text"
 import ImageBlock from "@/components//templates/imageBlock"
 import Button from "@/components/templates/button"
-import Steps from "@/components/StepSection/steps"
+import Steps from "@/components/stepSection/steps"
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col gap-[80px]">
-      {/* <Hero />
-      <ImageBlock
+    <div className="w-full h-full flex flex-col">
+      <Hero />
+      {/* <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />
@@ -42,9 +42,9 @@ export default function Home() {
             </div>
           ]]
         }
-      /> */}
+      />
       <Steps />
-      {/* <ImageBlock
+      <ImageBlock
         image1={'/image1.png'}
         image3={'/image3.png'}
       />

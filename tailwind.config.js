@@ -14,7 +14,7 @@ module.exports = {
       },
       spacing: {
         'site': '1264px',
-        'hero': '664px',
+        'hero': '896px',
       },
       colors: {
         'main': '#F5EE76',

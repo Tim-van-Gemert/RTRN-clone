@@ -5,9 +5,9 @@ import Footer from '@/components/footer/footer'
 export default function App({ Component, pageProps }) {
   return (
     <div className='flex flex-col items-center w-full'>
-    {/* <Header/> */}
+    <Header/>
     <Component {...pageProps} />
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   )
 }

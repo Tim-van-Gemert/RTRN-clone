@@ -133,7 +133,14 @@ a {
   line-height: 48px; /* 120% */
 }
 
-
+.mh1 {
+  color: var(--black, #000);
+  font-family: Matter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
 
 
 @keyframes LineAnimation {
