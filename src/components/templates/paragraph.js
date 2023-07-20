@@ -20,9 +20,9 @@ export default function Paragraph(props) {
             <motion.div
               ref={ref}
               className={`secondary-text w-fit animateline h-full flex flex-col gap-[16px] col-span-1 xl:pl-[32px] border-black ${props.mobileBorderleft && props.hasMobileBorder ? 'border-l-[1px] xl:border-l-[1px] pl-[16px] xl:pl-[32px]' : props.hasMobileBorder ? ' border-t-[1px] w-full xl:border-t-[0px] xl:border-l-[1px] pt-[32px] xl:pt-[0px] xl:pl-[32px]' : 'border-0 xl:border-l-[1px]'} ${props.tabletBorderleft ? ' md:h-[216px] xl:h-full md:pl-[32px] md:border-l-[1px] md:pt-[0px] md:border-t-0' : ''} h-fit `}
-              initial={{ height: inView ? '0%' : '100%' }}
-              animate={{ height: inView ? '100%' : '0%' }}
-              transition={{ duration: 0.5, delay: props.delay }}
+              // initial={{ height: inView ? '0%' : '100%' }}
+              // animate={{ height: inView ? '100%' : '0%' }}
+              // transition={{ duration: 0.5, delay: props.delay }}
             >
               {props.contentTopRight}
             </motion.div>

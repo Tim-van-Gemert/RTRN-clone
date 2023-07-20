@@ -13,9 +13,9 @@ export default function SingleStep(props) {
         <motion.div
             ref={ref}
             className="w-full group flex justify-between group py-[16px] xl:pl-[32px] border-b-[1px] xl:border-b-[0px] xl:border-l-[1px] border-black flex-col"
-            initial={{ height: inView ? '0%' : '100%' }}
-            animate={{ height: inView ? '100%' : '10%' }}
-            transition={{ duration: 1, delay: props.delay }}
+            // initial={{ height: inView ? '0%' : '100%' }}
+            // animate={{ height: inView ? '100%' : '10%' }}
+            // transition={{ duration: 1, delay: props.delay }}
         >
             <div className="flex flex-col w-full gap-[32px] pb-[40px] md:pb-[0px]">
                 <h4 className="steps">{props.title}</h4>
